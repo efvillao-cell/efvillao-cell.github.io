@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículum Vitae - Elkin Ivan Villao Ruiz</title>
+    <style>
+        /* Estilos básicos para mejorar la presentación visual */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f4f6f9;
+            margin: 0;
+            padding: 20px;
+        }
+        .contenedor {
+            max-width: 850px;
+            margin: 0 auto;
+            background: #ffffff;
+            padding: 35px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        header {
+            display: flex;
+            align-items: center;
+            gap: 25px;
+            border-bottom: 3px solid #1e3a8a;
+            padding-bottom: 20px;
+            margin-bottom: 20px;
+        }
+        header img {
+            width: 130px;
+            height: 130px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 3px solid #1e3a8a;
+        }
+        header h1 {
+            margin: 0;
+            color: #1e3a8a;
+            font-size: 1.9em;
+        }
+        header .subtitulo {
+            font-weight: bold;
+            color: #555;
+            margin: 5px 0 10px 0;
+        }
+        nav {
+            background-color: #eff6ff;
+            padding: 10px 15px;
+            border-radius: 5px;
+            margin-bottom: 25px;
+            text-align: center;
+        }
+        nav a {
+            color: #1e3a8a;
+            text-decoration: none;
+            font-weight: 600;
+            margin: 0 12px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            margin-bottom: 28px;
+        }
+        h2 {
+            color: #1e3a8a;
+            border-bottom: 1px solid #cbd5e1;
+            padding-bottom: 6px;
+            font-size: 1.35em;
+        }
+        h3 {
+            margin-bottom: 4px;
+            color: #0f172a;
+        }
+        .fecha {
+            font-size: 0.9em;
+            color: #64748b;
+            font-style: italic;
+            margin-top: 0;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 6px;
+        }
+        .habilidades-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+        footer {
+            text-align: center;
+            font-size: 0.85em;
+            color: #64748b;
+            border-top: 1px solid #e2e8f0;
+            padding-top: 15px;
+            margin-top: 20px;
+        }
+        @media (max-width: 600px) {
+            header {
+                flex-direction: column;
+                text-align: center;
+            }
+            .habilidades-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="contenedor">
+
+        <!-- 1. INFORMACIÓN PERSONAL -->
+        <header id="informacion-personal">
+            <!-- Guarda tu foto en la misma carpeta con el nombre "foto-elkin.jpg" o elimina esta etiqueta <img> si prefieres omitirla -->
+            <img src="foto-elkin.jpg" alt="Fotografía de Elkin Ivan Villao Ruiz">
+            <div>
+                <h1>ELKIN IVAN VILLAO RUIZ</h1>
+                <p class="subtitulo">Estudiante de Ingeniería en Sistemas | Soporte y Herramientas Digitales</p>
+                <p>
+                    <strong>Ciudad de residencia:</strong> Parroquia Tarifa, Samborondón, Guayas, Ecuador<br>
+                    <strong>Correo electrónico:</strong> <a href="mailto:villaoelkin@gmail.com">villaoelkin@gmail.com</a>
+                </p>
+            </div>
+        </header>
+
+        <!-- MENÚ DE NAVEGACIÓN INTERNA -->
+        <nav>
+            <a href="#perfil">Perfil</a>
+            <a href="#formacion">Formación</a>
+            <a href="#experiencia">Experiencia</a>
+            <a href="#habilidades">Habilidades</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+
+        <main>
+            <!-- 2. PERFIL PROFESIONAL -->
+            <section id="perfil">
+                <h2>Perfil Profesional</h2>
+                <p>
+                    Estudiante de Ingeniería en Sistemas, actualmente cursando el quinto semestre, y Bachiller en Ciencias graduado en 2024. 
+                    Cuento con conocimientos en informática, Microsoft Office, redes, herramientas de videoconferencia y plataformas digitales, 
+                    además de experiencia en atención al cliente, recepción, gestión de información, manejo básico de sistemas empresariales y resolución de problemas.
+                </p>
+                <p>
+                    Me caracterizo por mi facilidad para aprender nuevas herramientas tecnológicas, adaptarme a diferentes entornos de trabajo y brindar soluciones prácticas a las necesidades del usuario. 
+                    Mi objetivo profesional es continuar fortaleciendo mis conocimientos en el área de sistemas, soporte técnico y tecnología, aportando responsabilidad y eficiencia en cada proyecto.
+                </p>
+            </section>
+
+            <!-- 3. FORMACIÓN ACADÉMICA -->
+            <section id="formacion">
+                <h2>Formación Académica</h2>
+                
+                <article>
+                    <h3>Ingeniería en Sistemas — En curso</h3>
+                    <p class="fecha">Universidad de Guayaquil | Quinto semestre (Actualmente cursando)</p>
+                </article>
+
+                <article>
+                    <h3>Bachiller en Ciencias</h3>
+                    <p class="fecha">Unidad Educativa Particular de Samborondón “Olida Dueñas Moreira” | Graduado en 2024</p>
+                </article>
+            </section>
+
+            <!-- 4. EXPERIENCIA LABORAL -->
+            <section id="experiencia">
+                <h2>Experiencia Laboral</h2>
+
+                <article>
+                    <h3>Recepcionista — Negocio Automotriz</h3>
+                    <p class="fecha">02/01/2025 – 15/06/2026</p>
+                    <ul>
+                        <li>Atención y recepción de clientes, identificando sus necesidades y brindando orientación oportuna.</li>
+                        <li>Gestión, seguimiento y resolución de consultas y solicitudes básicas de los clientes.</li>
+                        <li>Manejo y organización de información relacionada con servicios, ventas, inventario y registros del negocio.</li>
+                        <li>Apoyo en procesos administrativos y contables utilizando Microsoft Word, Excel y herramientas digitales diarias.</li>
+                        <li>Comunicación y coordinación continua con el equipo de trabajo para dar seguimiento a los requerimientos.</li>
+                    </ul>
+                </article>
+            </section>
+
+            <!-- 5. HABILIDADES -->
+            <section id="habilidades">
+                <h2>Habilidades y Conocimientos</h2>
+                
+                <div class="habilidades-grid">
+                    <div>
+                        <h3>Conocimientos Técnicos y Herramientas</h3>
+                        <ul>
+                            <li><strong>Microsoft Office:</strong> Word (nivel básico), Excel (nivel básico), PowerPoint y edición de documentos.</li>
+                            <li><strong>Redes:</strong> Conceptos básicos de redes LAN y WLAN, configuración de conexiones y solución de fallos de conectividad.</li>
+                            <li><strong>Videoconferencias:</strong> Google Meet, Zoom y Microsoft Teams (configuración de audio/video y gestión de reuniones).</li>
+                            <li><strong>Sistemas y Soporte:</strong> Manejo básico de sistemas empresariales, equipos, periféricos y resolución de problemas informáticos.</li>
+                            <li><strong>Inteligencia Artificial:</strong> Uso de herramientas de IA generativa (ChatGPT, Claude, Gemini) para búsqueda, organización de datos y aprendizaje.</li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h3>Competencias Personales</h3>
+                        <ul>
+                            <li>Atención y orientación al usuario (servicio al cliente).</li>
+                            <li>Resolución práctica de problemas.</li>
+                            <li>Comunicación efectiva y trabajo en equipo.</li>
+                            <li>Organización y manejo responsable de la información.</li>
+                            <li>Adaptabilidad y rapidez para aprender nuevas tecnologías.</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 6. CONTACTO -->
+            <section id="contacto">
+                <h2>Contacto</h2>
+                <ul>
+                    <li><strong>Correo electrónico:</strong> <a href="mailto:villaoelkin@gmail.com">villaoelkin@gmail.com</a></li>
+                    <li><strong>Teléfonos:</strong> <a href="tel:+593981913487">0981913487</a> / <a href="tel:+593988088474">0988088474</a></li>
+                    <li><strong>Ubicación:</strong> Parroquia Tarifa, Samborondón, Guayas, Ecuador</li>
+                </ul>
+
+                <h3>Referencias Personales</h3>
+                <ul>
+                    <li><strong>Srta. Ambar A.</strong> — Teléfono: 989111460</li>
+                    <li><strong>Cdor. Emma R.</strong> — Teléfono: 98 962 4815</li>
+                </ul>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2026 Elkin Ivan Villao Ruiz — Currículum Vitae Web</p>
+        </footer>
+
+    </div>
+
+</body>
+</html>
